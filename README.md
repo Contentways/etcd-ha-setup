@@ -100,14 +100,14 @@ systemctl status kubelet
 
 ```shell
 # Update HOST0, HOST1 and HOST2 with the IPs of your hosts
-export HOST0=116.203.144.192
-export HOST1=142.132.181.0
-export HOST2=168.119.233.64
+export HOST0=IP ADRESS
+export HOST1=IP ADRESS
+export HOST2=IP ADRESS
 
 # Update NAME0, NAME1 and NAME2 with the hostnames of your hosts
-export NAME0="infra01-de-nbg1-dc3"
-export NAME1="infra02-de-fsn1-dc14"
-export NAME2="infra03-de-nbg1-dc3"
+export NAME0="HOSTNAME"
+export NAME1="HOSTNAME"
+export NAME2="HOSTNAME"
 
 # Create temp directories to store files that will end up on other hosts.
 mkdir -p /tmp/${HOST0}/ /tmp/${HOST1}/ /tmp/${HOST2}/
@@ -308,5 +308,5 @@ Im laufe der Zeit werde ich diese Anleitung auch noch ins englischsprachige übe
 - Kubernetes Doku -- https://kubernetes.io/docs/home/
 - Hetzner Online GmbH -- https://www.hetzner.com/
 
-### Lizemz
+### Lizenz
 **MIT License**
